@@ -12,7 +12,7 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>0</AttemptCount>
+  <AttemptCount>1</AttemptCount>
   <AttemptHistory />
   <Segments>
     <Segment>
@@ -52,7 +52,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Integrate web sockets in the back-end</Name>
+      <Name>Create the simple front-end UI</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -61,7 +61,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Create the front-end UI</Name>
+      <Name>Integrate web sockets in the back-end</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
