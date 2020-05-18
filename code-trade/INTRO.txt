@@ -1,0 +1,29 @@
+Welcome to
+the first ever
+installment of
+EthanThatOneKid's
+ _______  _______  ______   _______ 
+(  ____ \(  ___  )(  __  \ (  ____ \
+| (    \/| (   ) || (  \  )| (    \/
+| |      | |   | || |   ) || (__    
+| |      | |   | || |   | ||  __)   
+| |      | |   | || |   ) || (      
+| (____/\| (___) || (__/  )| (____/\
+(_______/(_______)(______/ (_______/
+ _______  _______  _______ _________
+(  ____ \(  ___  )(  ____ \\__   __/
+| (    \/| (   ) || (    \/   ) (   
+| |      | (___) || (_____    | |   
+| |      |  ___  |(_____  )   | |   
+| |      | (   ) |      ) |   | |   
+| (____/\| )   ( |/\____) |   | |   
+(_______/|/     \|\_______)   )_(   
+
+Today's episode:
+	Experimenting with Sapper/Svelte,
+	GitHub pages, and Socket.IO
+
+In the News:
+	What am I drinking?
+	Deno 1.0.0 was released a few days ago
+	I finished my 2nd semester of college at CSUF

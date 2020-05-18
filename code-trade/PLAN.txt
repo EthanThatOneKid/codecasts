@@ -1,0 +1,12 @@
+code-trade Development Steps
+* [ ] Clone the Sapper template repository
+* [ ] Follow the Getting Started instructions
+* [ ] Deploy the site to verify that it works
+* [ ] Clear out the demo files
+* [ ] Integrate web sockets in backend
+* [ ] Create frontend ui
+* [ ] Wire up frontend to backend
+* [ ] Deploy and test with 2 clients
+* [ ] Clean up the ui with simple css framework
+* [ ] Deploy again
+* [ ] Discuss future improvements for next episode
