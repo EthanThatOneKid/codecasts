@@ -1,0 +1,18 @@
+Sapper/Svelte Notes
+* Sapper API: https://sapper.svelte.dev/docs
+* Svelte API: https://svelte.dev/docs
+
+Socket.IO Notes
+* `npm i socket.io socket.io-client`
+* Socket.IO Server API: https://socket.io/docs/server-api/
+  * Import the dependency: `import socket from 'socket.io'`
+  * Get the server object from Polka: `const { server } = polka()`
+  * Create the IO server: `const io = socket(server)`
+  * Define up the IO server: `io.on("connection", socket => { ... })`
+    * Perhaps abstract the `socket => { ... }` part as another file for cleanliness
+    * Specify a desired protocols: `socket.on("SOME_PROTOCOL", details => { ... })`
+    * Specify a disconnection protocol: `socket.on("disconnect", details => { ... })`
+* Socket.IO Client API: https://socket.io/docs/client-api/
+  * Import the dependency: `import io from 'socket.io-client'`
+  * Create the client: `const socket = io()`
+  * Fire emit events: `socket.emit("SOME_PROTOCOL", details)`
