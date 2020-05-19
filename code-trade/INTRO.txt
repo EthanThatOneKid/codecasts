@@ -17,11 +17,21 @@ EthanThatOneKid's
 | |      |  ___  |(_____  )   | |   
 | |      | (   ) |      ) |   | |   
 | (____/\| )   ( |/\____) |   | |   
-(_______/|/     \|\_______)   )_(   
+(_______/|/     \|\_______)   )_( *name is a work in progress*
 
 Today's episode:
 	Experimenting with Sapper/Svelte,
-	GitHub pages, and Socket.IO
+	GitHub pages, and Socket.IO in code-trade
+
+Series rundown:
+	Not sure if "Codecast" is gonna be the official title of this series
+	I am new to this art form, so I may talk sorta funny
+	This episode is not being livestreamed, but future installments may
+	This is supposed to be a chill type of video, not a tutorial --
+	-- so just hang out with me and let's code together
+	Hiccups and detours are expected
+	Hydration breaks and news readoffs every 30 minutes
+	I am a fan of speedrunning, so I have splits set up
 
 In the News:
 	What am I drinking?
