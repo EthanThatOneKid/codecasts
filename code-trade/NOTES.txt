@@ -2,7 +2,14 @@ Sapper/Svelte Notes
 * Sapper API: https://sapper.svelte.dev/docs
 * Svelte API: https://svelte.dev/docs
 
-Socket.IO Notes
+WebSocket Notes
+* Client-side: https://svelte.dev/repl/29a5bdfb981f479fb387298aef1190a0?version=3.22.2
+  * Abstract socket events into a writable store in a seperate file
+  * Subscribe the WS store to a variable on the homepage
+* Server-side: https://github.com/websockets/ws/blob/master/examples/server-stats/index.js
+  * Wire up the connections to the front-end
+
+Socket.IO Notes [DEPRECATED]
 * `npm i socket.io socket.io-client`
 * Socket.IO Server API: https://socket.io/docs/server-api/
   * Import the dependency: `import socket from 'socket.io'`
