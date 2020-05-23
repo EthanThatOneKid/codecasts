@@ -7,7 +7,7 @@ Deployment Notes
   * Off-camera: I discovered that GitHub only hosts static sites, so websockets are impossible 😔
   * Off-camera: I decided to pivot the project from being hosted on GitHub Pages to running on Heroku because our project requires a dedicated server
   * Off-camera: I created a Heroku account and created a new app, 'code-trade' and installed the Heroku CLI to my machine
-  * Log in to the Heroku CLI and navigate to the pre-made 'code-trade' app
+  * Log in to the Heroku CLI: `heroku login`
   * Add Heroku as a remote to my existing GitHub repository: `heroku git:remote -a code-trade`
   * Deploy 'code-trade' on the heroku remote: `git push heroku master`
   
