@@ -1,4 +1,4 @@
-# EthanThatOneKid['s Codecasts 🔊
+# EthanThatOneKid's Codecasts 🔊
 > A companion repository for my codecasts
 
 ## Where to Listen 🔮
