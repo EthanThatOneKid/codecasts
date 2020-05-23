@@ -2,6 +2,12 @@ Sapper/Svelte Notes
 * Sapper API: https://sapper.svelte.dev/docs
 * Svelte API: https://svelte.dev/docs
 
+Deployment Notes
+* Deploy to Heroku: https://dashboard.heroku.com/apps/code-trade/deploy/heroku-git
+  * Off-camera: I discovered that GitHub only hosts static sites, so websockets are impossible 😔
+  * Off-camera: I decided to pivot the project from being hosted on GitHub Pages to running on Heroku because our project requires a dedicated server
+  * Off-camera: I created a Heroku account and created a new app, 'code-trade'
+
 WebSocket Notes
 * Client-side: https://svelte.dev/repl/29a5bdfb981f479fb387298aef1190a0?version=3.22.2
   * Abstract socket events into a writable store in a seperate file
