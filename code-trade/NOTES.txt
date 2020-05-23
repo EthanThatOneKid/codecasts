@@ -3,6 +3,7 @@ Sapper/Svelte Notes
 * Svelte API: https://svelte.dev/docs
 
 Deployment Notes
+* Get the development server up and running at the host url, not the subdirectory, 'code-trade'
 * Deploy to Heroku: https://dashboard.heroku.com/apps/code-trade/deploy/heroku-git
   * Off-camera: I discovered that GitHub only hosts static sites, so websockets are impossible 😔
   * Off-camera: I decided to pivot the project from being hosted on GitHub Pages to running on Heroku because our project requires a dedicated server
