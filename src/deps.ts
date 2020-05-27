@@ -6,4 +6,4 @@ export { config } from "https://deno.land/x/dotenv/mod.ts";
 // dev.jspm.io/
 export { Magic } from "https://dev.jspm.io/@magic-sdk/admin";
 export { passport } from "https://dev.jspm.io/passport";
-export { Strategy as MagicStrategy, MagicUser, DoneFunc } from "https://dev.jspm.io/passport-magic";
+export { Strategy as MagicStrategy, MagicUser, MagicUserMetadata, DoneFunc } from "https://dev.jspm.io/passport-magic";

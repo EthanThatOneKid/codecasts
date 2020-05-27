@@ -2,7 +2,10 @@ import {
   Magic,
   passport,
   MagicStrategy,
-  config,
+  MagicUser,
+  MagicUserMetadata,
+  DoneFunc,
+  config
 } from "../deps.ts";
 import {
   addUser,
@@ -15,7 +18,7 @@ const MAGIC_SECRET_KEY = Deno.env.get("MAGIC_SECRET_KEY") as string;
 const admin = new Magic(MAGIC_SECRET_KEY);
 
 passport.use(
-  new MagicStrategy(async (payload, done) => {
+  new MagicStrategy(async (payload: MagicUser, done: DoneFunc) => {
     const userMetadata = await admin.users.getMetadataByIssuer(payload.issuer);
     const existingUser = await admin.findOne({ issuer: payload.issuer });
     if (!existingUser) {
@@ -28,7 +31,7 @@ passport.use(
   }),
 );
 
-const signup = async (payload, metadata, done) => {
+const signup = async (payload: MagicUser, metadata: MagicUserMetadata, done: DoneFunc) => {
   const user: User = await addUser({
     issuer: payload.issuer,
     email: metadata.email,
@@ -37,7 +40,7 @@ const signup = async (payload, metadata, done) => {
   return done(null, user);
 };
 
-const login = async (payload, done) => {
+const login = async (payload: MagicUser, done: DoneFunc) => {
   /* Replay attack protection (https://go.magic.link/replay-attack) */
   if (payload.claim.iat <= payload.lastLoginAt) {
     return done(null, false, {
