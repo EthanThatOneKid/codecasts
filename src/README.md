@@ -12,6 +12,7 @@
 * [Magic Full Stack Example](https://docs.magic.link/tutorials/full-stack-node-js)
 * [Mongo API Reference](https://doc.deno.land/https/deno.land/x/mongo/mod.ts)
 * [MongoDB Project](https://cloud.mongodb.com/v2/5d90027ec56c9839eee686e8)
+* [Deno JWT Auth Example](https://github.com/thecodeholic/deno-jwt-auth-example)
 * [Passport Magic Repository](https://github.com/MagicHQ/passport-magic)
 
 ---

@@ -9,11 +9,15 @@ import {
 
 const client = new MongoClient();
 const { MONGODB_URI } = config();
-client.connectWithUri(MONGODB_URI as string);
+client.connectWithUri(MONGODB_URI);
 
 const isDev = Deno.env.get("IS_DEV") === "1";
 const db = client.database(isDev ? "dev" : "production");
 const users = db.collection("users");
+
+export const findUser = async (targetUser: User): Promise<User> => {
+  return await users.findOne(userToQuery(targetUser));
+};
 
 export const addUser = async (user: User): Promise<User> => {
   let id: string;
