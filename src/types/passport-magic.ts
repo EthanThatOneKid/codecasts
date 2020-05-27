@@ -20,6 +20,11 @@ export interface MagicUser {
   issuer: string;
   publicAddress: string;
   claim: Claim;
+  lastLoginAt?: number;
+}
+
+export interface MagicUserMetadata {
+  email: string;
 }
 
 export interface DoneFuncInfo {

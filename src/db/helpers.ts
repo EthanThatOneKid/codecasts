@@ -1,7 +1,7 @@
 export interface User {
   issuer?: string;
   email?: string;
-  lastLoginAt?: string;
+  lastLoginAt?: number;
   id?: string;
 }
 
