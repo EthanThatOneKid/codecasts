@@ -1,11 +1,9 @@
 import {
   Magic,
   passport,
-  passportMagic,
+  MagicPassport,
   config
 } from "../deps.ts";
-
-const { Strategy: MagicStrategy, MagicUser, MagicUserMetadata, DoneFunc } = passportMagic;
 
 import {
   addUser,

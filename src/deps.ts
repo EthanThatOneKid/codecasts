@@ -4,15 +4,18 @@ export { MongoClient } from "https://deno.land/x/mongo@v0.7.0/mod.ts";
 export { config } from "https://deno.land/x/dotenv/mod.ts";
 
 // dev.jspm.io/
-import { default as MagicAdmin } from "https://dev.jspm.io/@magic-sdk/admin";
-import { default as passport } from "https://dev.jspm.io/passport";
-import { default as passportMagic} from "https://dev.jspm.io/passport-magic";
+interface MagicSDKInterface {
+  Magic: any,
+  SDKError: any
+}
+interface MagicPassportInterface {
+  Strategy: any
+}
 
-const { Magic, SDKError } = MagicAdmin;
+import * as MagicSDK from "https://dev.jspm.io/@magic-sdk/admin";
+import * as passportModule from "https://dev.jspm.io/passport";
+import * as MagicPassport from "https://dev.jspm.io/passport-magic";
 
-export {
-  Magic,
-  SDKError,
-  passport,
-  passportMagic
-};
+export const { Magic, SDKError } = MagicSDK.default as MagicSDKInterface;
+export const { default: passport } = passportModule;
+export const { Strategy: MagicStrategy } = MagicPassport.default as MagicPassportInterface;

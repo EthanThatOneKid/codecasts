@@ -1,6 +1,8 @@
 # Codecasts Backend 🤟
+> A backend system for EthanThatOneKid's Codecasts written with Deno 🦕
 
 ## Develop 🔥
+1. To get started, [install deno](https://github.com/denoland/deno_install) to your machine.
 1. To spin the development server, enter the following command: `deno run --allow-net --allow-write --allow-read --allow-plugin --allow-env --unstable mod.ts`
 
 ## Reference 📚
@@ -8,6 +10,7 @@
 * [Magic Full Stack Example](https://docs.magic.link/tutorials/full-stack-node-js)
 * [Mongo API Reference](https://doc.deno.land/https/deno.land/x/mongo/mod.ts)
 * [MongoDB Project](https://cloud.mongodb.com/v2/5d90027ec56c9839eee686e8)
+* [Passport Magic Repository](https://github.com/MagicHQ/passport-magic)
 
 ---
 

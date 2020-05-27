@@ -4,12 +4,14 @@
 
 import {
   Magic,
+  SDKError,
   passport,
-  passportMagic
+  MagicStrategy
 } from "./deps.ts"
 console.log({
   Magic,
+  SDKError,
   passport,
-  passportMagic
+  MagicStrategy
 })
 // console.log({ db, auth });
