@@ -1,6 +1,8 @@
 # Codecasts Backend 🤟
 > A backend system for EthanThatOneKid's Codecasts written with Deno 🦕
 
+## (WIP)
+
 ## Develop 🔥
 1. To get started, [install deno](https://github.com/denoland/deno_install) to your machine.
 1. To spin the development server, enter the following command: `deno run --allow-net --allow-write --allow-read --allow-plugin --allow-env --unstable mod.ts`
