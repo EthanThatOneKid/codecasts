@@ -5,7 +5,7 @@
 My codecasts can be found [here][videos] on my YouTube channel.
 
 ## Selection 💽
-1. `code-trade`: [video](http://ethandavidson.com/videos), [code](https://github.com/EthanThatOneKid/code-trade)
+1. `code-trade`: [video](https://youtu.be/-jtmtDOsr5U), [code](https://github.com/EthanThatOneKid/code-trade)
 
 ---
 
@@ -14,5 +14,5 @@ My codecasts can be found [here][videos] on my YouTube channel.
 Casted with 💖 by [EthanThatOneKid][site]
 
 [site]: http://ethandavidson.com/
-[videos]: https://www.youtube.com/channel/UCuH81p2GnF_PmOP-lhjUgJg/
+[videos]: https://www.youtube.com/playlist?list=PLbLNnDY4DZ9cRRev6DidK2Mh0P1-UY8QQ
 [bmac]: http://buymeacoff.ee/etok
