@@ -6,6 +6,7 @@ My codecasts can be found [here][videos] on my YouTube channel.
 
 ## Selection 💽
 1. `code-trade`: [video](https://youtu.be/4gpAqkeyAyk), [code](https://github.com/EthanThatOneKid/code-trade)
+1. `neo`: [video](), [code](https://github.com/EthanThatOneKid/neo)
 
 ---
 
