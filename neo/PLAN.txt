@@ -23,11 +23,11 @@ Development Steps
   * [ ] Edit homepage: `"homepage": "https://neolang.dev/"`
   * [ ] Edit author: `"author": "EthanThatOneKid <ethan.r.davidson@gmail.com> (http://ethandavidson.com/)"`
   * [ ] Edit module entry: `"main": "dist/mod.js"` (Note: Make sure this is the correct entry point post-initial-bundle)
-  * [ ] Create npm package.json with scripts:
+  * [ ] Declare scripts:
     * `"doc": "deno doc mod.ts --json"`
     * `"dev": "denon test"`
     * `"build": "deno bundle mod.ts dist"`
-    * `"publish": "npm publish --access public"`
+    * `"publish": "npm run build & npm publish --access public"`
 * Create the neo interpretter
   * [ ] Lexer (Creates a list of tokens / ignores comments)
   * [ ] Parser (Builds recursive syntax tree; store line number for error tracing)
