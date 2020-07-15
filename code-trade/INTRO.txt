@@ -18,6 +18,7 @@ EthanThatOneKid's
 | |      | (   ) |      ) |   | |   
 | (____/\| )   ( |/\____) |   | |   
 (_______/|/     \|\_______)   )_( *name is a work in progress*
+-- [Epic Font](http://patorjk.com/software/taag/#p=display&f=Epic&t=Code%0ACast)
 
 Today's episode:
 	Experimenting with Sapper/Svelte,
