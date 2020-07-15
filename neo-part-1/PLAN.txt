@@ -4,7 +4,7 @@ Note: For today's episode, I will attempt
       will continue this checklist into
       a later episode.
 
-What am I doing?!
+What the heck am I dooOOooOOoOoOoing?!
       Well, I am going to write my neo interpreter
       in Deno, but I will be allowing for backwards-
       compatibility by publishing my module as an
@@ -23,15 +23,17 @@ Development Steps
   * [ ] Edit homepage: `"homepage": "https://neolang.dev/"`
   * [ ] Edit author: `"author": "EthanThatOneKid <ethan.r.davidson@gmail.com> (http://ethandavidson.com/)"`
   * [ ] Edit module entry: `"main": "dist/mod.js"` (Note: Make sure this is the correct entry point post-initial-bundle)
+  * [ ] Edit types entry: `"types": "dist/mod.d.ts"` (Note: Make sure this is correct as it may be unnecessary)
   * [ ] Declare scripts:
     * `"doc": "deno doc mod.ts --json"`
     * `"dev": "denon test"`
-    * `"build": "deno bundle mod.ts dist"`
+    * `"build": "deno bundle mod.ts dist/mod.ts"`
     * `"publish": "npm run build & npm publish --access public"`
-* Create the neo interpretter
-  * [ ] Lexer (Creates a list of tokens / ignores comments)
-  * [ ] Parser (Builds recursive syntax tree; store line number for error tracing)
-  * [ ] Compiler (Creates rules by determining statements)
-  * [ ] Bytecode (Adding constants to the stack and emitting operations)
-  * [ ] Object Model (Declare object types and their operations; asserts type-errors)
+    * `"format": "deno fmt"`
+* Create the neo interpreter
+  * [ ] Lexer (Creates a list of tokens while ignoring comments)
+  * [ ] Parser (Builds recursive syntax tree; stores line numbers for error tracing)
+  * [ ] Compiler (Creates rules by determining/condensing statements)
+  * [ ] Bytecode (Adds constants to the stack and emitts operations)
+  * [ ] Object Model (Declares object types and their operations; asserts type-errors) (Note: By design, this part is merely required; not to be engineered)
   * [ ] Interpreter (Runs bytecode from start to finish)
