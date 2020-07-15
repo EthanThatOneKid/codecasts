@@ -1,0 +1,33 @@
+Welcome to
+episode 2 of
+EthanThatOneKid's
+ _______  _______  ______   _______ 
+(  ____ \(  ___  )(  __  \ (  ____ \
+| (    \/| (   ) || (  \  )| (    \/
+| |      | |   | || |   ) || (__    
+| |      | |   | || |   | ||  __)   
+| |      | |   | || |   ) || (      
+| (____/\| (___) || (__/  )| (____/\
+(_______/(_______)(______/ (_______/
+ _______  _______  _______ _________
+(  ____ \(  ___  )(  ____ \\__   __/
+| (    \/| (   ) || (    \/   ) (   
+| |      | (___) || (_____    | |   
+| |      |  ___  |(_____  )   | |   
+| |      | (   ) |      ) |   | |   
+| (____/\| )   ( |/\____) |   | |   
+(_______/|/     \|\_______)   )_(
+
+Today's episode:
+	Writing an interpreter from scratch 😻
+
+Topics:
+	deno, neo, interpreter, npm
+
+In the News:
+	What am I drinking?
+	I got a job! (Code Ninjas)
+
+---
+
+[![Interpreted Language](https://img.shields.io/badge/%20-interpreter-success)](https://en.wikipedia.org/wiki/Interpreter_(computing))
