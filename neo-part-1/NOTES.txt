@@ -2,12 +2,22 @@ Structure of the Interpreter
 * [ ] Lexer (Creates a list of tokens while ignoring comments)
   * Description: This class will keep track of all the keywords in the instance.
   * Description: Provides next token(s) iteratively.
+  * Description: Stores grammar rules to simplify statements
   * Strategy: If a space occurs after a token that does not match any pre-defined syntactical representation, there is a syntax error, "undefined".
-* [ ] Parser (Builds recursive syntax tree; stores line numbers for error tracing)
+  * Strategy: Tokens store their line numbers for error tracing.
+* [ ] Parser (Builds recursive abstract syntax tree)
+  * Strategy: If an expression is terminal, execute accordingly.
+  * Strategy: Factor->Term->Expression is how order of operations is implemented.
 * [ ] Compiler (Creates rules by determining/condensing statements)
 * [ ] Bytecode (Adds constants to the stack and emitts operations)
 * [ ] Object Model (Declares object types and their operations; asserts type-errors) (Note: By design, this part is merely required; not to be engineered)
 * [ ] Interpreter (Runs bytecode from start to finish)
+
+Feature Ideas
+  * Events that trigger upon visiting a specific site
+
+Resources
+  * ["Let's Build a Simple Interpreter" article series](https://ruslanspivak.com/lsbasi-part1/)
 
 End Goal:
   A programatic interface that takes in raw code one
