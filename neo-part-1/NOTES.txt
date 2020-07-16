@@ -1,0 +1,15 @@
+Structure of the Interpreter
+* [ ] Lexer (Creates a list of tokens while ignoring comments)
+  * Description: This class will keep track of all the keywords in the instance.
+  * Description: Provides next token(s) iteratively.
+  * Strategy: If a space occurs after a token that does not match any pre-defined syntactical representation, there is a syntax error, "undefined".
+* [ ] Parser (Builds recursive syntax tree; stores line numbers for error tracing)
+* [ ] Compiler (Creates rules by determining/condensing statements)
+* [ ] Bytecode (Adds constants to the stack and emitts operations)
+* [ ] Object Model (Declares object types and their operations; asserts type-errors) (Note: By design, this part is merely required; not to be engineered)
+* [ ] Interpreter (Runs bytecode from start to finish)
+
+End Goal:
+  A programatic interface that takes in raw code one
+  piece at a time and executes statements as they are
+  completed.

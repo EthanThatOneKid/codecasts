@@ -30,10 +30,4 @@ Development Steps
     * `"build": "deno bundle mod.ts lib/mod.ts"`
     * `"publish": "npm run build & npm publish --access public"`
     * `"format": "deno fmt"`
-* Create the neo interpreter
-  * [ ] Lexer (Creates a list of tokens while ignoring comments)
-  * [ ] Parser (Builds recursive syntax tree; stores line numbers for error tracing)
-  * [ ] Compiler (Creates rules by determining/condensing statements)
-  * [ ] Bytecode (Adds constants to the stack and emitts operations)
-  * [ ] Object Model (Declares object types and their operations; asserts type-errors) (Note: By design, this part is merely required; not to be engineered)
-  * [ ] Interpreter (Runs bytecode from start to finish)
+* [ ] Create the neo interpreter (Refer to my notes)
