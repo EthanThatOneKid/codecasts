@@ -4,6 +4,13 @@ Note: For today's episode, I will attempt
       will continue this checklist into
       a later episode.
 
+What have I learned?
+      In my last episode, I wasn't chill enough
+      so I'm gonna try to take a chill pill.
+      Also, I did not like the way my audio
+      turned out so I took some time to tweak
+      the settings so hopefully it sounds better.
+
 What the heck am I dooOOooOOoOoOoing?!
       Well, I am going to write my neo interpreter
       in Deno, but I will be allowing for backwards-
