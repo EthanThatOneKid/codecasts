@@ -9,12 +9,15 @@ Structure of the Interpreter
   * Strategy: If an expression is terminal, execute accordingly.
   * Strategy: Factor->Term->Expression is how order of operations is implemented.
 * [ ] Compiler (Creates rules by determining/condensing statements)
+  * This is implemented within a third party application.
 * [ ] Bytecode (Adds constants to the stack and emitts operations)
 * [ ] Object Model (Declares object types and their operations; asserts type-errors) (Note: By design, this part is merely required; not to be engineered)
 * [ ] Interpreter (Runs bytecode from start to finish)
 
 Feature Ideas
   * Events that trigger upon visiting a specific site
+  * Events that trigger for every variable
+  * '_' and '^' operators for flooring/ceiling numbers and lowerCasing/upperCasing text.
 
 Resources
   * ["Let's Build a Simple Interpreter" article series](https://ruslanspivak.com/lsbasi-part1/)
