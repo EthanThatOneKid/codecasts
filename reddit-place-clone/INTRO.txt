@@ -1,0 +1,24 @@
+Welcome to
+episode 3 of
+EthanThatOneKid's
+   ______          __   
+  / ____/___  ____/ /__ 
+ / /   / __ \/ __  / _ \
+/ /___/ /_/ / /_/ /  __/
+\____/\____/\__,_/\___/ 
+  / ____/___ ______/ /_ 
+ / /   / __ `/ ___/ __/ 
+/ /___/ /_/ (__  ) /_   
+\____/\__,_/____/\__/   
+-- [Slant Font](http://patorjk.com/software/taag/#p=display&f=Slant&t=Code%0ACast)
+
+Today's episode:
+	Making a simple clone of r/place in Deno
+
+Topics:
+  deno, reddit, canvas
+
+In the News:
+  What am I drinking?
+  2021! (Pokémon 25th Anniversary)
+  CSUF ACM Webmaster

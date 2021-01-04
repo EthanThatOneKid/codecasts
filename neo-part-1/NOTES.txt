@@ -10,7 +10,7 @@ Structure of the Interpreter
   * Strategy: Factor->Term->Expression is how order of operations is implemented.
 * [ ] Compiler (Creates rules by determining/condensing statements)
   * This is implemented within a third party application.
-* [ ] Bytecode (Adds constants to the stack and emitts operations)
+* [ ] Bytecode (Adds constants to the stack and emits operations)
 * [ ] Object Model (Declares object types and their operations; asserts type-errors) (Note: By design, this part is merely required; not to be engineered)
 * [ ] Interpreter (Runs bytecode from start to finish)
 
@@ -23,6 +23,6 @@ Resources
   * ["Let's Build a Simple Interpreter" article series](https://ruslanspivak.com/lsbasi-part1/)
 
 End Goal:
-  A programatic interface that takes in raw code one
+  A programmatic interface that takes in raw code one
   piece at a time and executes statements as they are
   completed.
