@@ -1,2 +1,12 @@
-- Some Things to Use
-  - `deno-canvas`: https://github.com/DjDeveloperr/deno-canvas
+# Plan
+
+- [ ] Customize the Development Environment
+- [ ] Create the Backend Code
+- [ ] Create the Frontend Code
+- [ ] Deploy to Heroku
+
+# Resources
+
+- `denon`: https://deno.land/x/denon
+- `deno-canvas`: https://github.com/DjDeveloperr/deno-canvas
+- Heroku Deno Buildpack: https://github.com/chibat/heroku-deno-getting-started
