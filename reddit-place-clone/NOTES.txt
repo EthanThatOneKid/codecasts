@@ -1,8 +1,8 @@
 # Plan
 
 - [ ] Customize the Development Environment
-- [ ] Create the Backend Code
 - [ ] Create the Frontend Code
+- [ ] Create the Backend Code
 - [ ] Deploy to Heroku
 
 # Resources
@@ -10,3 +10,4 @@
 - `denon`: https://deno.land/x/denon
 - `deno-canvas`: https://github.com/DjDeveloperr/deno-canvas
 - Heroku Deno Buildpack: https://github.com/chibat/heroku-deno-getting-started
+- Bundle Code in Deno: https://deno.land/manual/tools/bundler
