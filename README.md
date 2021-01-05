@@ -14,9 +14,8 @@ My codecasts can be found on my [YouTube channel][videos].
 
 ## Roadmap 🛣
 
-- [ ] Reddit Place Clone (in Deno)
 - [ ] CardWars Game Simulator (in Deno)
-- [ ] L-System Implementation Benchmark (in C++, Go, Rust, TypeScript compiled to WASM).
+- [ ] L-System Implementation Benchmark (in C++, Go, Rust, TypeScript compiled to WASM)
 - [ ] Video Game Specification Idea and Implementation
 - [ ] Neo Part 2
 

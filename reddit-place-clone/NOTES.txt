@@ -1,9 +1,9 @@
 # Plan
 
-- [ ] Customize the Development Environment
-- [ ] Create the Frontend Code
-- [ ] Create the Backend Code
-- [ ] Deploy to Heroku
+- [x] Customize the Development Environment
+- [x] Create the Frontend Code
+- [x] Create the Backend Code
+- [x] Deploy to Heroku
 
 # Resources
 
