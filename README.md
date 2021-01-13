@@ -14,9 +14,6 @@ My codecasts can be found on my [YouTube channel][videos].
 
 ## Roadmap 🛣
 
-- [ ] CardWars Game Simulator (in Deno)
-- [ ] L-System Implementation Benchmark (in C++, Go, Rust, TypeScript compiled to WASM)
-- [ ] Video Game Specification Idea and Implementation
 - [ ] Neo Part 2
 - [ ] Codebase Walkthrough of popular open-source GitHub project(s)
 - [ ] Nest.js module for creating an API with the Orginization/Member/Project model
