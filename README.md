@@ -16,7 +16,6 @@ My codecasts can be found on my [YouTube channel][videos].
 
 - [ ] Neo Part 2
 - [ ] Codebase Walkthrough of popular open-source GitHub project(s)
-- [ ] Nest.js module for creating an API with the Orginization/Member/Project model
 
 ---
 
